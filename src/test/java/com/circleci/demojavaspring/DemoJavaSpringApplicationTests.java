@@ -19,10 +19,10 @@ public class DemoJavaSpringApplicationTests {
 	public void contextLoads() {
 	}
 
-	@Test
-	public void failTest() {
-		assertEquals("1", "2");
+	// @Test
+	// public void failTest() {
+	// 	assertEquals("1", "2");
 
 
-	}
+	// }
 }
