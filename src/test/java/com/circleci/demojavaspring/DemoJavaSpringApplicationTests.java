@@ -2,6 +2,8 @@ package com.circleci.demojavaspring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import static org.junit.Assert.assertEquals;
+
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestPropertySource;
@@ -17,4 +19,10 @@ public class DemoJavaSpringApplicationTests {
 	public void contextLoads() {
 	}
 
+	@Test
+	public void failTest() {
+		assertEquals("1", "2");
+
+
+	}
 }
